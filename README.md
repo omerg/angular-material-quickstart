@@ -1,4 +1,4 @@
-# AngularMaterialBoiler
+# Angular Material Quickstart
 
 This project aims to speed you up while getting started with Angular Material 
 

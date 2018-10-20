@@ -1,6 +1,10 @@
 {
-  "name": "angular-material-boiler",
-  "version": "0.0.0",
+  "name": "Angular Material Quickstart",
+  "author": {
+    "name": "Omer Gurarslan",
+    "email": "omerg@sabanciuniv.edu"
+  },
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

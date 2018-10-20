@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angularMaterialBoiler": {
+    "angularMaterialQuickstart": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angularMaterialBoiler",
+            "outputPath": "dist/angularMaterialQuickstart",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -50,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angularMaterialBoiler:build"
+            "browserTarget": "angularMaterialQuickstart:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angularMaterialBoiler:build:production"
+              "browserTarget": "angularMaterialQuickstart:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angularMaterialBoiler:build"
+            "browserTarget": "angularMaterialQuickstart:build"
           }
         },
         "test": {
@@ -95,7 +95,7 @@
         }
       }
     },
-    "angularMaterialBoiler-e2e": {
+    "angularMaterialQuickstart-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -103,11 +103,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angularMaterialBoiler:serve"
+            "devServerTarget": "angularMaterialQuickstart:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angularMaterialBoiler:serve:production"
+              "devServerTarget": "angularMaterialQuickstart:serve:production"
             }
           }
         },
@@ -123,7 +123,7 @@
       }
     }
   },
-  "defaultProject": "angularMaterialBoiler",
+  "defaultProject": "angularMaterialQuickstart",
   "schematics": {
     "@schematics/angular:component": {
       "styleext": "scss"

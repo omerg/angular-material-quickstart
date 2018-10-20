@@ -1,6 +1,12 @@
 # AngularMaterialBoiler
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.2.
+This project aims to speed you up while getting started with Angular Material 
+
+In addition to standard Angular CLI 6 + Angular Material project setup, following modifications were made:
+
+ - scss used as default style extension instead of css
+ - navigation panel installed
+ - some minor css setup 
 
 ## Development server
 

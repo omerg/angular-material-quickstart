@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
 
-  angular-material-quickstart:
+  app:
     container_name: angular-material-quickstart
     build:
       context: .

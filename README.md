@@ -7,10 +7,14 @@ In addition to standard Angular CLI 6 + Angular Material project setup, followin
  - scss used as default style extension instead of css
  - navigation panel installed
  - some minor css setup 
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ 
+ ## Running Docker Instance
+ 
+ Run the following command. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ 
+ ```
+ docker-compose up -d --build
+ ```
 
 ## Code scaffolding
 

@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+
+  angular-material-quickstart:
+    container_name: angular-material-quickstart
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+    - '.:/usr/src/app'
+    - '/usr/src/app/node_modules'
+    ports:
+    - '4200:4200'
